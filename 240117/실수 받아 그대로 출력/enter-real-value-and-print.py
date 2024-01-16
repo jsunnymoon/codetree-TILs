@@ -1,3 +1,3 @@
 a = input()
 a = float(a)
-print(a:.3f)
+print("{:.2f}".format(a))
