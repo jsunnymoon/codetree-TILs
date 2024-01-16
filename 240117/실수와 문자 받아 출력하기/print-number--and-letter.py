@@ -1,5 +1,4 @@
-arr = input().split()
-c = arr[0]
-a = float(arr[1])
-b = float(arr[2])
+c = input()
+a = float(input())
+b = float(input())
 print(f"{c}\n{a:.2f}\n{b:.2f}")
