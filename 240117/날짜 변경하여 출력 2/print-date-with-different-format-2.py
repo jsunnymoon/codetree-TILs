@@ -1,0 +1,5 @@
+inp = input().split("-")
+dd = int(inp[1])
+mm = int(inp[0])
+yyyy = int(inp[2])
+print(f"{yyyy}.{mm}.{dd}")
