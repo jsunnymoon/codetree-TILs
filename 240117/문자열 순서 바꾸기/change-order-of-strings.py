@@ -1,3 +1,3 @@
 s = input()
 t = input()
-print(f"{s}\n{t}")
+print(f"{t}\n{s}")
