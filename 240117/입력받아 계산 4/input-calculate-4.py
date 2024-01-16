@@ -1,2 +1,2 @@
-a = input()
+a = int(input())
 print(2 * a)
