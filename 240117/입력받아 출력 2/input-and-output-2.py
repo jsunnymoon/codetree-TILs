@@ -1,2 +1,4 @@
 a,b = input().split("-")
-print("a"+"b")
+a = int(a)
+b = int(b)
+print(f"{a}{b}")
