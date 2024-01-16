@@ -1,2 +1,4 @@
 n = input().split("-")
-print(n)
+a = int(n[0])
+b = int(n[1])
+print(f"{ab}")
