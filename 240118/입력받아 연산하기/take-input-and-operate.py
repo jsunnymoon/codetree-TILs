@@ -1,4 +1,3 @@
-a, b = input().split()
-a = int(a) + 87
-b = int(b) % 10
+a = int(input()) + 87
+b = int(input()) % 10
 print(f"{a}\n{b}")
