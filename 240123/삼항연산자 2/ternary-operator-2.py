@@ -1,2 +1,2 @@
 a = int(input())
-print(f"'t' if a == 1 else {a}")
+print('t' if a == 1 else '%d' % (a))
