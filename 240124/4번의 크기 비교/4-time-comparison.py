@@ -1,11 +1,8 @@
 a = int(input())
-b, c, d, e = input().split()
-b = int(b)
-c = int(c)
-d = int(d)
-e = int(e)
+b, c, d, e = map(int, input().split())
 
-print(int(a>b), and=" ")
-print(int(a>c), and=" ")
-print(int(a>d), and=" ")
-print(int(a>e), and=" ")
+
+print(int(a>b))
+print(int(a>c))
+print(int(a>d))
+print(int(a>e))
