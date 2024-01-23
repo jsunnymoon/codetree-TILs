@@ -1,0 +1,11 @@
+a = int(input())
+b, c, d, e = input().split()
+b = int(b)
+c = int(c)
+d = int(d)
+e = int(e)
+
+print(int(a>b), end=" ")
+print(int(a>c), end=" ")
+print(int(a>d), end=" ")
+print(int(a>e), end=" ")
