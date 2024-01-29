@@ -5,11 +5,7 @@ mb, eb = input().split()
 mb = int(mb)
 eb = int(eb)
 
-if ma > mb:
-    print("A")
-elif mb > ma:
-    print("B")
-elif ea > eb:
+if ma > mb or (ma == mb and ea > eb):
     print("A")
 else:
     print("B")
