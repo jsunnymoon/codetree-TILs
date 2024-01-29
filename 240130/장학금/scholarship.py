@@ -1,4 +1,5 @@
-arr = input().split()
+input = input()
+arr = input.split()
 m = int(arr[0])
 f = int(arr[1])
 
