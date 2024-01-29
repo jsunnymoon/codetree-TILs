@@ -1,6 +1,6 @@
-m, f = input().split()
-m = int(m)
-f = int(f)
+arr = input().split()
+m = int(arr[0])
+f = int(arr[1])
 
 if m >= 90 and f >= 95:
     print(1000000)
