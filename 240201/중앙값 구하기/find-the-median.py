@@ -10,9 +10,9 @@ if a > b:
         print(a)
 
 else:
-    if a > c:
+    if a < b and a > c:
         print(a)
-    elif b < c:
+    elif a < b and b < c:
         print(b)
     else:
         print(c)
