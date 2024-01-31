@@ -1,5 +1,4 @@
-inp = input().split()
-a, b, c = inp[0], inp[1], inp[2]
+a, b, c = map(int, input().split())
 
 if (b > a > c) or (c > a > b):
     print(a)
