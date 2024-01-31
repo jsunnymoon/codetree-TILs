@@ -11,13 +11,13 @@ p3s = str(p3[0])
 p3t = int(p3[1])
 
 if p1s == "Y" and p1t >= 37:
-    if (p2s == "Y" and p2t >= 37) or (p3s == "Y" and p3t >= 37)
+    if (p2s == "Y" and p2t >= 37) or (p3s == "Y" and p3t >= 37):
         print("E")
     else:
         print("N")
 
-elif p2s == "Y" and p2t >= 37:
-    if p3s == "Y" and p3t >= 37:
+else:
+    if (p2s == "Y" and p2t >= 37) or (p3s == "Y" and p3t >= 37):
         print("E")
     else:
         print("N")
