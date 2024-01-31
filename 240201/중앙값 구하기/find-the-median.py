@@ -8,10 +8,11 @@ if a > b:
         print(c)
     else:
         print(a)
-elif a > c:
-    if c > b:
-        print(c)
-    elif a > b:
+
+else:
+    if a > c:
+        print(a)
+    elif b < c:
         print(b)
     else:
-        print(a)
+        print(c)
