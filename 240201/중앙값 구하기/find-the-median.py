@@ -1,9 +1,18 @@
 inp = input().split()
 a, b, c = inp[0], inp[1], inp[2]
 
-if (a < b and a > c) or (a < c and a > b):
-    print(a)
-elif (b < a and b > c) or (b < c and b > a):
-    print(b)
-elif (c < a and c > b) or (c < b and c > a):
-    print(c)
+if a > b:
+    if a < c:
+        print(a)
+    elif b > c:
+        print(b)
+    else:
+        print(c)
+
+elif a > c:
+    if a < b:
+        print(a)
+    elif c > b:
+        print(c)
+    else:
+        print(b)
