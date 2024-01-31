@@ -1,13 +1,13 @@
 p1 = input().split()
-p1s = str(p1[0])
+p1s = p1[0]
 p1t = int(p1[1])
 
 p2 = input().split()
-p2s = str(p2[0])
+p2s = p2[0]
 p2t = int(p2[1])
 
 p3 = input().split()
-p3s = str(p3[0])
+p3s = p3[0]
 p3t = int(p3[1])
 
 if p1s == "Y" and p1t >= 37:
