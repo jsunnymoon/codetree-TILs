@@ -1,20 +1,13 @@
 a, b = map(int, input().split())
 
-mul5 = 0
-mul7 = 0
-cnt5 = 0
-cnt7 = 0
-while a <= b:
-    if  a%5 == 0:
-        mul5 += a
-        cnt5 += 1
-    if a%7 == 0:
-        mul7 += a
-        cnt7 += 1
-    a += 1
+sum = 0
+cnt = 0
 
-sum = mul5 + mul7
-cnt = cnt5 + cnt7
+for i in range(a, b+1):
+    if i % 5 == 0 or i % 7 == 0:
+        sum += i
+        cnt += 1
+
 avg = sum/cnt
-avg = round(avg, 1)
-print(sum, avg)
+
+print(f"{sum} {avg:.1f}")
